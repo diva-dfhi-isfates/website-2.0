@@ -1,9 +1,17 @@
-// Customize theme
-
-$primary: rgb(84, 178, 224);
-$success: rgb(45, 145, 142);
-$warning: rgb(255, 191, 99);
-$danger: rgb(255, 82, 75);
-$secondary: #A5A9AD;
+@import "./variables";
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+
+
+html, body {
+  font-family: 'Inter', sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
