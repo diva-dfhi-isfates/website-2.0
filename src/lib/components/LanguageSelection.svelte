@@ -1,7 +1,6 @@
 <script lang="ts">
   import { locale, _ } from 'svelte-i18n'
   import { LANGS } from '$lib/constants'
-  import { page } from '$app/stores'
 </script>
 
 <div class="btn-group ms-4" role="group" aria-label="select language">
@@ -9,7 +8,7 @@
     <a
       role="button"
       href={`?lang=${lang}`}
-      class="btn btn-outline-secondary p-1 d-flex align-items-center"
+      class="btn btn-outline-secondary p-1 d-flex"
       aria-label={$_(`localisation.${$locale}`)}
       class:disabled={$locale === lang}
       aria-hidden={$locale === lang}
