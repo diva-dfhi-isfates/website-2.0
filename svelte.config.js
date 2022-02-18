@@ -9,6 +9,7 @@ const config = {
 
 	kit: {
 		target: '#svelte',
+		ssr: false,
 		adapter: adapterStatic({
 			// default options are shown
 			pages: 'build',
