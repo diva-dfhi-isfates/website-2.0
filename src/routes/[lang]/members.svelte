@@ -28,7 +28,7 @@
     <li class="col" data-aos="fade-up">
       <div class="h-100 d-flex flex-column align-items-center">
         <div class="position-relative avatar">
-          <img src={member.profile.url} class="card-img-top rounded-pill" alt="">
+          <img src={member.profile?.url} class="card-img-top rounded-pill" alt="">
           <LeafCrownIcon />          
         </div>
         <div class="card-body mt-3">
