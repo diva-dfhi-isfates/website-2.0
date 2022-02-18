@@ -1,17 +1,10 @@
-<svelte:head>
-	<title>Home</title>
-</svelte:head>
+<script context="module" lang="ts">
+  import { getLocaleFromNavigator } from 'svelte-i18n'
 
-<section>
-	<h1>
-		home
-	</h1>
-</section>
-
-<style lang="scss">
-	section {
-		h1 {
-			color: red;
-		}
-	} 
-</style>
+  export async function load(): Promise<Record<string, string | number>> {
+    return {
+      status: 303,
+      redirect: `/${getLocaleFromNavigator()?.slice(0, 2)}`,
+    }
+  }
+</script>
