@@ -1,7 +1,7 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n'
   import { page } from '$app/stores';
-  import { keepQueryStrings } from '$lib/directives/keepQueryStrings';
+  import { localisedURL } from '$lib/directives';
 
   export let path: string
 </script>
@@ -11,7 +11,7 @@
       class="nav-link text-dark" 
       class:active={path.includes('/members')}
       href="/members"
-      use:keepQueryStrings={$page}
+      use:localisedURL
     >{$_('members.title')}</a>
   </li>
   <li class="nav-item">
@@ -19,7 +19,7 @@
       class="nav-link text-dark" 
       class:active={path.includes('/gallery')}
       href="/gallery"
-      use:keepQueryStrings={$page}
+      use:localisedURL
     >{$_('gallery.title')}</a>
   </li>
   <li class="nav-item">
@@ -27,7 +27,7 @@
       class="nav-link text-dark"
       class:active={path.includes('/contact')}
       href="/contact"
-      use:keepQueryStrings={$page}
+      use:localisedURL
     >Contact</a>
   </li>
 </ul>

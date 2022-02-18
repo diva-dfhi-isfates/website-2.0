@@ -1,4 +1,6 @@
-export const LANGS = ['de', 'fr']
+export const LANGS = ['de', 'fr'] as const
+export const DEFAULT_LANG = 'de'
+
 export const ROLES = [
   'president',
   'vice_president',
@@ -15,3 +17,4 @@ export const ROLES = [
   'respo_com_sarrebruck'
 ]
 export const API_BASEURL = 'https://api-eu-central-1.graphcms.com/v2/cktmv7fxk278w01z0d9og73az/master'
+export const MAIN_CONTENT_ID = 'mainContent'

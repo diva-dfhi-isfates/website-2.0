@@ -2,8 +2,25 @@
   "gallery": {
     "title": "Galerie"
   },
+  "goto_main_content": "Zum Hauptinhalt gehen",
   "members": {
-    "title": "Das Team"
+    "title": "Das Team",
+    "page_title": "Gewählte Mitglieder der DIVA",
+    "roles": {
+      "president": "Vorsitzender",
+      "vice_president": "stellvertretender Vorsitzender",
+      "second_vice_president": "Zweiter stellvertretender Vorsitzender",
+      "tresorier": "Schatzmeister",
+      "vice_tresorier": "stellvertretender Schatzmeister",
+      "secretaire": "sekretär",
+      "vice_secretaire": "Stellvertretender Sekretär",
+      "respo_informatique": "IT-Verantwortlicher",
+      "vice_respo_informatique": "stellvertretender Leiter der IT-Abteilung",
+      "respo_sports": "Leiter Sport",
+      "vice_respo_sports": "Stellvertretender Leiter des Sportbüros",
+      "respo_com_metz": "Leiter der Abteilung Kommunikation Metz",
+      "respo_com_sarrebruck": "Leiter Kommunikation Saarbrücken"
+    }
   },
   "localisation": {
     "fr": "Französisch",

@@ -2,8 +2,25 @@
   "gallery": {
     "title": "Galerie"
   },
+  "goto_main_content": "Aller au contenu principal",
   "members": {
-    "title": "L'équipe"
+    "title": "L'équipe",
+    "page_title": "Membres élus de la DIVA",
+    "roles": {
+      "president": "Président",
+      "vice_president": "Vice-Président",
+      "second_vice_president": "2ème Vice-Président",
+      "tresorier": "Trésorier",
+      "vice_tresorier": "Vice-Trésorier",
+      "secretaire": "Secrétaire",
+      "vice_secretaire": "Secrétaire adjoint",
+      "respo_informatique": "Responsable informatique",
+      "vice_respo_informatique": "Vice-Responsable informatique",
+      "respo_sports": "Responsable sports",
+      "vice_respo_sports": "Vice-Responsable bureau des sports",
+      "respo_com_metz": "Responsable communication Metz",
+      "respo_com_sarrebruck": "Responsable communication Sarrebruck"
+    }
   },
   "localisation": {
     "fr": "Français",
