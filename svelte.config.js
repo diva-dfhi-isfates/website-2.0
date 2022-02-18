@@ -8,15 +8,13 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
+		target: '#svelte',
 		adapter: adapterStatic({
 			// default options are shown
 			pages: 'build',
 			assets: 'build',
 			fallback: null
-		}),
-		
-		target: '#svelte',
-		ssr: false
+		})
 	}
 }
 

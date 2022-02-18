@@ -1,7 +1,6 @@
 <h1>Contact</h1>
 
-
-<div class="row">
+<div class="row mt-5">
     <div class="col-md-6">
         <h3>Coté allemand:</h3>
         <p>
