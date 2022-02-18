@@ -3,9 +3,10 @@
   import { page } from '$app/stores';
   import { localisedURL } from '$lib/directives';
 
-  export let path: string
+  $: path = $page.url.pathname
 </script>
-<ul class="d-flex list-unstyled">
+
+<ul class={`d-flex list-unstyled ${$$restProps.class ||''}`}>
   <li class="nav-item">
     <a 
       class="nav-link text-dark" 

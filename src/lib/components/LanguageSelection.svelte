@@ -5,7 +5,12 @@
   import { getUrlWithUpdatedLang } from '$lib/utils'
 </script>
 
-<div class="btn-group ms-4" role="group" aria-label="select language">
+<div
+  {...$$restProps}
+  class={`btn-group ms-4 ${$$restProps.class || ''}`}
+  role="group"
+  aria-label={$_('select_language')}
+>
   {#each LANGS as lang}
     <a
       role="button"

@@ -1,10 +1,10 @@
 <script lang="ts">
-  import { page } from '$app/stores'
   import Links from './Links.svelte'
   import LanguageSelection from './LanguageSelection.svelte'
-  import { localisedURL } from '$lib/directives';
-  
-  $: path = $page.url.pathname
+  import { localisedURL } from '$lib/directives'
+  import { screen } from '$lib/stores';
+  import BurgerIcon from './icons/Burger.svelte';
+  import MobileMenuSidebar from './MobileMenuSidebar.svelte';
 </script>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-warning border-4 sticky-top">
@@ -18,8 +18,22 @@
       DIVA
     </a>
 
-    <Links {path} />
-    <LanguageSelection />
+    {#if $screen.device !== 'mobile'}
+      <Links />
+      <LanguageSelection />
+    {:else}
+      <button
+        class="burger btn p-0"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#sidebar"
+        aria-controls="offcanvasRight"
+      >
+        <BurgerIcon />
+      </button>
+      <MobileMenuSidebar />
+    {/if}
+
   </div>
 </nav>
 
@@ -27,4 +41,9 @@
   img {
     width: 40px;
   }
+  
+  .burger :global(svg) {
+    width: 2rem;
+    height: 2rem;
+  } 
 </style>

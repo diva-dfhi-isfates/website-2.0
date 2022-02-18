@@ -2,6 +2,8 @@
   "gallery": {
     "title": "Galerie"
   },
+  "select_language": "Sélectionner un language",
+  "menu": "Menu",
   "goto_main_content": "Aller au contenu principal",
   "members": {
     "title": "L'équipe",
