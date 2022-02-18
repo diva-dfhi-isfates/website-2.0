@@ -4,7 +4,7 @@
 </script>
 
 <a
-  href={`./#${MAIN_CONTENT_ID}`}
+  href={`#${MAIN_CONTENT_ID}`}
   class="position-absolute top-0 start-0 btn btn-outline-dark bg-light m-2 visually-hidden-focusable"
 >
   {$_('goto_main_content')}
