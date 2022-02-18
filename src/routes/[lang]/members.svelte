@@ -3,11 +3,23 @@
   import { get } from "svelte/store";
 
   import { getDivaMembers } from "$lib/api";
+  import { ROLES } from "$lib/constants";
 
-  export async function load({ url }) {
-		const members = await getDivaMembers(get(locale));
+  const getSortedMembersByRole = (members) => {
+    return members.sort((a, b) => {
+      const aOrderIndex = ROLES.indexOf(a.role)
+      const bOrderIndex = ROLES.indexOf(b.role)
 
-		return {
+      return aOrderIndex - bOrderIndex
+    })
+  }
+
+  export async function load() {
+    let members = await getDivaMembers(get(locale));
+
+    members = getSortedMembersByRole(members)
+
+    return {
 			props: {
 				members
 			}
