@@ -1,10 +1,10 @@
 <script context="module" lang="ts">
-  import { getLocaleFromNavigator } from 'svelte-i18n'
+  import { DEFAULT_LANG } from '$lib/constants';
 
   export async function load(): Promise<Record<string, string | number>> {
     return {
       status: 303,
-      redirect: `/${getLocaleFromNavigator()?.slice(0, 2)}`,
+      redirect: `/${DEFAULT_LANG}`,
     }
   }
 </script>
