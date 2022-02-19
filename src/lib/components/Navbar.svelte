@@ -4,7 +4,7 @@
   import { localisedURL } from '$lib/directives'
   import { screen } from '$lib/stores';
   import BurgerIcon from './icons/Burger.svelte';
-  import MobileMenuSidebar from './MobileMenuSidebar.svelte';
+  import MobileMenuSidebar, { OFFCANVAS_ID } from './MobileMenuSidebar.svelte';
 </script>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-warning border-4 sticky-top">
@@ -26,7 +26,7 @@
         class="burger btn p-0"
         type="button"
         data-bs-toggle="offcanvas"
-        data-bs-target="#sidebar"
+        data-bs-target={`#${OFFCANVAS_ID}`}
         aria-controls="offcanvasRight"
       >
         <BurgerIcon />
