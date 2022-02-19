@@ -14,7 +14,7 @@
     })
   }
 
-  export async function load() {
+  export async function load({ url }) { // keep unused url to trigger data reload when language change
     let members = await getDivaMembers(get(locale));
 
     members = getSortedMembersByRole(members)
