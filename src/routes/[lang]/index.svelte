@@ -17,7 +17,7 @@ import WaveSvg from "./_components/WaveSvg.svelte";
 		</div>
 		<img src="/assets/diva-icon-variant.svg" class="position-absolute top-100 start-50" alt="" data-aos="fade-up"/>
 	</div>
-	<h1 class="fw-bold mt-2 mt-md-5">L’association étudiante de l’ISFATES</h1>
+	<h1 class="fw-bold mt-5">L’association étudiante de l’ISFATES</h1>
 </section>
 
 <style lang="scss">
