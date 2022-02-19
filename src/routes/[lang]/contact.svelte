@@ -2,7 +2,7 @@
   import SocialLinks from "$lib/components/SocialLinks.svelte";
 </script>
 
-<h1>Contact</h1>
+<h1 data-aos="fade-right">Contact</h1>
 
 <div class="row mt-5">
   <div class="col-md-6" data-aos="fade-up">
