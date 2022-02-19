@@ -5,7 +5,7 @@
   import InstagramIcon from "./icons/Instagram.svelte";
 </script>
 
-<ul class={`list-unstyled d-flex justify-content-center ${$$restProps.class}`} data-aos="fade-up">
+<ul {...$$restProps} class={`list-unstyled d-flex justify-content-center ${$$restProps.class}`}>
   <li class="m-2">
     <a
       href={`mailto:${EMAIL}`}

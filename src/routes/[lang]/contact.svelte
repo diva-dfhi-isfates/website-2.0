@@ -20,5 +20,5 @@
         1, rue Augustin Fresnel<br/>57073 Metz<br/><br/>
       </p>
   </div>
-  <SocialLinks class="mt-5" />    
+  <SocialLinks class="mt-5" data-aos="fade-up" />    
 </div>
