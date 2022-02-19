@@ -5,6 +5,10 @@
   "select_language": "Wählen Sie eine Sprache",
   "menu": "Menü",
   "goto_main_content": "Zum Hauptinhalt gehen",
+  "home": {
+    "diva_title": "Studierendenverein des DFHI",
+    "welcome": "Willkommen auf der Website der DIVA"
+  },
   "members": {
     "title": "Das Team",
     "page_title": "Gewählte Mitglieder",

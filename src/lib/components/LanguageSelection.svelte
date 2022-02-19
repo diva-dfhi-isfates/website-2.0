@@ -7,7 +7,7 @@
 
 <div
   {...$$restProps}
-  class={`btn-group ms-4 ${$$restProps.class || ''}`}
+  class={`language-selection btn-group ms-4 ${$$restProps.class || ''}`}
   role="group"
   aria-label={$_('select_language')}
 >

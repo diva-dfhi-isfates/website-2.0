@@ -5,6 +5,7 @@
   import { screen } from '$lib/stores';
   import BurgerIcon from './icons/Burger.svelte';
   import MobileMenuSidebar, { OFFCANVAS_ID } from './MobileMenuSidebar.svelte';
+  import { _ } from 'svelte-i18n';
 </script>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-warning border-4 sticky-top">
@@ -14,8 +15,9 @@
       href="/"
       use:localisedURL
     >
-      <img src="/assets/diva-icon.svg" alt="" class="me-2"/>
-      DIVA
+      <img src="/assets/diva-icon.svg" alt=""/>
+      <img src="/assets/diva-typo.svg" alt="" class="diva-typo ms-1"/>
+      <p class="visually-hidden">{$_('home.welcome')} - {$_('home.diva_title')}</p>
     </a>
 
     {#if $screen.device !== 'mobile'}
@@ -41,7 +43,11 @@
   img {
     width: 40px;
   }
-  
+
+  .diva-typo {
+    width: 4rem;
+  }
+
   .burger :global(svg) {
     width: 2rem;
     height: 2rem;
