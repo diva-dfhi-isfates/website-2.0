@@ -33,7 +33,7 @@
   export let members
 </script>
 
-<h1>{$_('members.page_title')}</h1>
+<h1 data-aos="fade-right">{$_('members.page_title')}</h1>
 
 <ul class="mt-5 row row-cols-1 row-cols-md-3 g-4 list-unstyled">
   {#each members as member}
