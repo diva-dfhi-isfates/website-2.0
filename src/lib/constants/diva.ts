@@ -1,5 +1,14 @@
-export const LANGS = ['de', 'fr'] as const
-export const DEFAULT_LANG = 'de'
+export const EMAIL = 'diva.isfatesdfhi@gmail.com '
+export const SOCIALS = {
+  facebook: {
+    url: 'https://www.facebook.com/groups/247198152001108',
+    tag: '@diva-isfates/dfhi'
+  },
+  instagram: {
+    url: 'https://www.instagram.com/diva_isfates/',
+    tag: '@diva_isfates'
+  }
+}
 
 export const ROLES = [
   'president',
@@ -16,5 +25,3 @@ export const ROLES = [
   'respo_com_metz',
   'respo_com_sarrebruck'
 ]
-export const API_BASEURL = 'https://api-eu-central-1.graphcms.com/v2/cktmv7fxk278w01z0d9og73az/master'
-export const MAIN_CONTENT_ID = 'mainContent'
