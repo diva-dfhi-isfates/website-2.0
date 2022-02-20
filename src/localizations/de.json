@@ -5,6 +5,10 @@
   "select_language": "Wählen Sie eine Sprache",
   "menu": "Menü",
   "goto_main_content": "Zum Hauptinhalt gehen",
+  "home": {
+    "diva_title": "Studierendenverein des DFHI",
+    "welcome": "Willkommen auf der Website der DIVA"
+  },
   "members": {
     "title": "Das Team",
     "page_title": "Gewählte Mitglieder",
@@ -22,6 +26,13 @@
       "vice_respo_sports": "Stellvertretender Leiter des Sportbüros",
       "respo_com_metz": "Leiter der Abteilung Kommunikation Metz",
       "respo_com_sarrebruck": "Leiter Kommunikation Saarbrücken"
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "side": {
+      "german": "Deutsche Seite",
+      "french": "Französische Seite"
     }
   },
   "localisation": {

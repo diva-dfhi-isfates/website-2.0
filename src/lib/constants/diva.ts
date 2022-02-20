@@ -25,3 +25,18 @@ export const ROLES = [
   'respo_com_metz',
   'respo_com_sarrebruck'
 ]
+
+export const ADDRESSES = {
+  'saarbrucken': {
+    title: 'Studentenvertretung des DFHI – DIVA',
+    street: 'Waldhausweg 14',
+    city: 'Saarbrücken',
+    zip: 'D-66123',
+  },
+  metz: {
+    title: 'Association étudiante de l\'ISFATES',
+    street: '1, rue Augustin Fresnel',
+    city: 'Metz',
+    zip: '57073',
+  }
+}

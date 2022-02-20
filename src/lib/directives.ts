@@ -2,9 +2,10 @@ import { locale } from "svelte-i18n"
 import { get } from "svelte/store"
 import { LANGS } from "./constants"
 
-export const localisedURL = (node: HTMLAnchorElement) => {
+export const localisedURL = (node: HTMLAnchorElement, page) => {
 
-  const addLocaleToHref = (): void => {
+  // unused parameter needed to trigger update()
+  const addLocaleToHref = (page): void => {
     const lang = get(locale)
 
     // eslint-disable-next-line prefer-const
@@ -19,11 +20,11 @@ export const localisedURL = (node: HTMLAnchorElement) => {
     node.setAttribute('href', updatedUrl)
   }
 
-  addLocaleToHref()
+  addLocaleToHref(page)
 
   return {
     update() {
-      addLocaleToHref()
+      addLocaleToHref(page)
     }
   }
 }

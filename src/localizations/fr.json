@@ -5,6 +5,10 @@
   "select_language": "Sélectionner un language",
   "menu": "Menu",
   "goto_main_content": "Aller au contenu principal",
+  "home": {
+    "diva_title": "L’association étudiante de l’ISFATES",
+    "welcome": "Bienvenue sur le site de la DIVA"
+  },
   "members": {
     "title": "L'équipe",
     "page_title": "Membres élus",
@@ -22,6 +26,13 @@
       "vice_respo_sports": "Vice-Responsable bureau des sports",
       "respo_com_metz": "Responsable communication Metz",
       "respo_com_sarrebruck": "Responsable communication Sarrebruck"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "side": {
+      "german": "Coté Allemand",
+      "french": "Coté Français"
     }
   },
   "localisation": {

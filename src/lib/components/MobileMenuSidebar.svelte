@@ -23,13 +23,17 @@ import { onMount } from "svelte";
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body d-flex flex-column" on:click={() => { bsOffcanvas.hide() }}>
-    <Links class="flex-column fs-4"/>
-    <LanguageSelection class="m-0 mt-3 align-self-center"/>
+    <Links class="flex-column fs-4" />
+    <LanguageSelection class="m-0 mt-3 align-self-center" />
     <SocialLinks class="position-absolute end-0 bottom-0" />
   </div>
 </div>
 
 <style>
+  .offcanvas :global(.language-selection img) {
+    height: 2rem;
+  }
+
   h1::after {
     background-color: var(--bs-warning);
   }

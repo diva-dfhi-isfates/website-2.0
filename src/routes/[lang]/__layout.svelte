@@ -21,15 +21,18 @@
 
 <script lang="ts">
   import Navbar from '$lib/components/Navbar.svelte';
+  import Footer from '$lib/components/Footer.svelte';
 
   import { MAIN_CONTENT_ID } from '$lib/constants';
 </script>
 
 <Navbar />
 
-<main class="container" id={MAIN_CONTENT_ID}>
+<main id={MAIN_CONTENT_ID}>
   <slot/>
 </main>
+
+<Footer />
 
 <style>
   :global(h1::after) {
