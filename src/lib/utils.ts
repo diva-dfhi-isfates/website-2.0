@@ -12,3 +12,4 @@ export const getUrlWithUpdatedLang = (url: string, lang: string, newLang: string
 }
 
 export const getPageTitle = (preTitle: string): string => `${preTitle} - ${WEBSITE_TITLE}`
+export const getCurrentFullYear = (): number => { return new Date().getFullYear() }
