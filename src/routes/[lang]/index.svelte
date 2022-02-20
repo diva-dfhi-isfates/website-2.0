@@ -11,8 +11,8 @@
 
 <FancyHeader />
 
-<section class="container">
-  <p data-aos="fade-up">La DIVA (Dfhi-Isfates Verein-Association) est l'association des étudiants du DFHI-ISFATES créée par les étudiants et pour les étudiants de l'ISFATES. Son objectif est d'animer et de dynamiser la vie étudiante des isfatessiens tout au long de l'année et de promouvoir par le biais de ses activités l'intégration des nouveaux étudiants, de créer un esprit de groupe et de cohésion. Mais, que fait la DIVA ? </p>
+<section class="container" data-aos="fade-up">
+  <p>La DIVA (Dfhi-Isfates Verein-Association) est l'association des étudiants du DFHI-ISFATES créée par les étudiants et pour les étudiants de l'ISFATES. Son objectif est d'animer et de dynamiser la vie étudiante des isfatessiens tout au long de l'année et de promouvoir par le biais de ses activités l'intégration des nouveaux étudiants, de créer un esprit de groupe et de cohésion. Mais, que fait la DIVA ? </p>
 </section>
 
 

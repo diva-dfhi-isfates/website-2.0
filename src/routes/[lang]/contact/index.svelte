@@ -12,9 +12,9 @@
   <title>{getPageTitle($_('contact.title'))}</title>
 </svelte:head>
 
-<h1 data-aos="fade-right">{$_('contact.title')}</h1>
-
 <section class="container">
+  <h1 data-aos="fade-right">{$_('contact.title')}</h1>
+
   <div class="row mt-5">
     <div class="col-md-6" data-aos="fade-up">
       <h2 class="mt-3">
