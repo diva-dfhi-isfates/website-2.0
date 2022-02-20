@@ -28,7 +28,7 @@
 
 <Navbar />
 
-<main class="container" id={MAIN_CONTENT_ID}>
+<main id={MAIN_CONTENT_ID}>
   <slot/>
 </main>
 
