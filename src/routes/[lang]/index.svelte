@@ -19,7 +19,7 @@
   </div>
   <img src="/assets/diva-icon-variant.svg" class="position-absolute top-100 start-50" alt="" data-aos="fade-up"/>
 </div>
-<h1 class="fw-bold mt-5">
+<h1 class="fw-bold mt-5" data-aos="fade-right">
   {$_('home.diva_title')}
 </h1>
 
