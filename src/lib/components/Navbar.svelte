@@ -1,13 +1,13 @@
 <script lang="ts">
-  import { _ } from 'svelte-i18n';
-  import { page } from '$app/stores';
+  import { _ } from 'svelte-i18n'
+  import { page } from '$app/stores'
 
   import Links from './Links.svelte'
   import LanguageSelection from './LanguageSelection.svelte'
   import { localisedURL } from '$lib/directives'
-  import { screen } from '$lib/stores';
-  import BurgerIcon from './icons/Burger.svelte';
-  import MobileMenuSidebar, { OFFCANVAS_ID } from './MobileMenuSidebar.svelte';
+  import { screen } from '$lib/stores'
+  import BurgerIcon from './icons/Burger.svelte'
+  import MobileMenuSidebar, { OFFCANVAS_ID } from './MobileMenuSidebar.svelte'
 </script>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-warning border-4 sticky-top">

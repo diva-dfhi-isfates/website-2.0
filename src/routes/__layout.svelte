@@ -10,9 +10,9 @@
 </script>
 
 <script lang="ts">
-  import { onMount } from 'svelte';
+  import { onMount } from 'svelte'
   import { screen } from '$lib/stores'
-  import GoToMainContent from '$lib/components/GoToMainContent.svelte';
+  import GoToMainContent from '$lib/components/GoToMainContent.svelte'
 
   import AOS from 'aos'
   import '../../node_modules/aos/dist/aos.css'

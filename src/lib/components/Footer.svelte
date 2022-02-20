@@ -1,9 +1,9 @@
 <script>
-  import { page } from "$app/stores";
-  import { getCurrentFullYear } from "$lib/utils";
-  import { localisedURL } from "$lib/directives";
+  import { page } from "$app/stores"
+  import { getCurrentFullYear } from "$lib/utils"
+  import { localisedURL } from "$lib/directives"
 
-  import Links from "./Links.svelte";
+  import Links from "./Links.svelte"
 </script>
 
 <footer class="d-flex flex-wrap justify-content-between align-items-center p-3 mb-5 border-top">

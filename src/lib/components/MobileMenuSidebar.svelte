@@ -3,16 +3,17 @@
 </script>
 
 <script>
-import { onMount } from "svelte";
+  import { onMount } from "svelte"
 
-  import { _ } from "svelte-i18n";
-  import LanguageSelection from "./LanguageSelection.svelte";
-  import Links from "./Links.svelte";
-  import SocialLinks from "./SocialLinks.svelte";
+  import { _ } from "svelte-i18n"
+  import LanguageSelection from "./LanguageSelection.svelte"
+  import Links from "./Links.svelte"
+  import SocialLinks from "./SocialLinks.svelte"
   
   let bsOffcanvas
 
   onMount(() => {
+    // eslint-disable-next-line
     bsOffcanvas = new bootstrap.Offcanvas(document.getElementById(OFFCANVAS_ID))
   })
 </script>

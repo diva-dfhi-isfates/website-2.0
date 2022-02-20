@@ -1,6 +1,6 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n'
-  import { MAIN_CONTENT_ID } from '$lib/constants';
+  import { MAIN_CONTENT_ID } from '$lib/constants'
 </script>
 
 <a

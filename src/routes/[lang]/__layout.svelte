@@ -2,7 +2,7 @@
   import { locale } from 'svelte-i18n'
 
   import { DEFAULT_LANG, LANGS } from '$lib/constants'
-  import { getUrlWithUpdatedLang } from '$lib/utils';
+  import { getUrlWithUpdatedLang } from '$lib/utils'
 
   export async function load({ params, url }) {
     let isLangValid = LANGS.includes(params.lang)
@@ -20,10 +20,10 @@
 </script>
 
 <script lang="ts">
-  import Navbar from '$lib/components/Navbar.svelte';
-  import Footer from '$lib/components/Footer.svelte';
+  import Navbar from '$lib/components/Navbar.svelte'
+  import Footer from '$lib/components/Footer.svelte'
 
-  import { MAIN_CONTENT_ID } from '$lib/constants';
+  import { MAIN_CONTENT_ID } from '$lib/constants'
 </script>
 
 <Navbar />

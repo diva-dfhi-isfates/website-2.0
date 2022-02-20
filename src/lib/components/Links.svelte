@@ -1,7 +1,7 @@
 <script lang="ts">
   import { _ } from 'svelte-i18n'
-  import { page } from '$app/stores';
-  import { localisedURL } from '$lib/directives';
+  import { page } from '$app/stores'
+  import { localisedURL } from '$lib/directives'
 
   $: path = $page.url.pathname
 </script>

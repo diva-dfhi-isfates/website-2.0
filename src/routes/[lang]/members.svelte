@@ -1,9 +1,9 @@
 <script context="module" lang="ts">
-  import { locale, _ } from "svelte-i18n";
-  import { get } from "svelte/store";
+  import { locale, _ } from "svelte-i18n"
+  import { get } from "svelte/store"
 
-  import { getDivaMembers } from "$lib/api";
-  import { ROLES } from "$lib/constants";
+  import { getDivaMembers } from "$lib/api"
+  import { ROLES } from "$lib/constants"
 
   const getSortedMembersByRole = (members) => {
     return members.sort((a, b) => {
@@ -15,7 +15,7 @@
   }
 
   export async function load({ url }) { // keep unused url to trigger data reload when language change
-    let members = await getDivaMembers(get(locale));
+    let members = await getDivaMembers(get(locale))
 
     members = getSortedMembersByRole(members)
 
@@ -23,7 +23,7 @@
 			props: {
 				members
 			}
-		};
+		}
 	}
 </script>
 

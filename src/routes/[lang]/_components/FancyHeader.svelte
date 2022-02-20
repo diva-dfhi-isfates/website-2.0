@@ -1,8 +1,8 @@
 <script>
-  import { _ } from "svelte-i18n";
+  import { _ } from "svelte-i18n"
 
-  import DeFrMatrice from "./DeFrMatrice.svelte";
-  import WaveSvg from "./WaveSvg.svelte";
+  import DeFrMatrice from "./DeFrMatrice.svelte"
+  import WaveSvg from "./WaveSvg.svelte"
 </script>
 
 <header class="position-relative overflow-hidden">

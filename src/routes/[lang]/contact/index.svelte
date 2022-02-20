@@ -1,11 +1,11 @@
 <script>
-  import { _ } from 'svelte-i18n';
+  import { _ } from 'svelte-i18n'
 
   import Emoji from 'svelte-emoji'
-  import SocialLinks from "$lib/components/SocialLinks.svelte";
-  import { ADDRESSES } from "$lib/constants";
-  import Address from "./_components/Address.svelte";
-  import { getPageTitle } from '$lib/utils';
+  import SocialLinks from "$lib/components/SocialLinks.svelte"
+  import { ADDRESSES } from "$lib/constants"
+  import Address from "./_components/Address.svelte"
+  import { getPageTitle } from '$lib/utils'
 </script>
 
 <svelte:head>

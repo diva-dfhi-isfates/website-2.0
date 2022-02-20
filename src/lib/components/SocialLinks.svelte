@@ -1,8 +1,8 @@
 <script lang="ts">
-  import { EMAIL, SOCIALS } from "$lib/constants";
-  import EnvelopeIcon from "./icons/Envelope.svelte";
-  import FacebookIcon from "./icons/Facebook.svelte";
-  import InstagramIcon from "./icons/Instagram.svelte";
+  import { EMAIL, SOCIALS } from "$lib/constants"
+  import EnvelopeIcon from "./icons/Envelope.svelte"
+  import FacebookIcon from "./icons/Facebook.svelte"
+  import InstagramIcon from "./icons/Instagram.svelte"
 </script>
 
 <ul {...$$restProps} class={`list-unstyled d-flex justify-content-center ${$$restProps.class}`}>

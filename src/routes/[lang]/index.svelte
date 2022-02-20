@@ -1,8 +1,8 @@
 <script>
-	import { _ } from "svelte-i18n";
+	import { _ } from "svelte-i18n"
 
-	import { getPageTitle } from "$lib/utils";
-	import FancyHeader from "./_components/FancyHeader.svelte";
+	import { getPageTitle } from "$lib/utils"
+	import FancyHeader from "./_components/FancyHeader.svelte"
 </script>
 
 <svelte:head>
