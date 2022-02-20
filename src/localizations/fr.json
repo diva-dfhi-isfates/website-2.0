@@ -28,6 +28,13 @@
       "respo_com_sarrebruck": "Responsable communication Sarrebruck"
     }
   },
+  "contact": {
+    "title": "Contact",
+    "side": {
+      "german": "Coté Allemand",
+      "french": "Coté Français"
+    }
+  },
   "localisation": {
     "fr": "Français",
     "en": "Anglais"

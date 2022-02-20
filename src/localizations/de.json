@@ -28,6 +28,13 @@
       "respo_com_sarrebruck": "Leiter Kommunikation Saarbrücken"
     }
   },
+  "contact": {
+    "title": "Kontakt",
+    "side": {
+      "german": "Deutsche Seite",
+      "french": "Französische Seite"
+    }
+  },
   "localisation": {
     "fr": "Französisch",
     "en": "Englisch"
