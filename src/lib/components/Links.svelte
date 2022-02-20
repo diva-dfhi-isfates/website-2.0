@@ -12,7 +12,7 @@
       class="nav-link text-dark" 
       class:active={path.includes('/members')}
       href="/members"
-      use:localisedURL
+      use:localisedURL={$page}
     >{$_('members.title')}</a>
   </li>
   <li class="nav-item">
@@ -20,7 +20,7 @@
       class="nav-link text-dark" 
       class:active={path.includes('/gallery')}
       href="/gallery"
-      use:localisedURL
+      use:localisedURL={$page}
     >{$_('gallery.title')}</a>
   </li>
   <li class="nav-item">
@@ -28,7 +28,7 @@
       class="nav-link text-dark"
       class:active={path.includes('/contact')}
       href="/contact"
-      use:localisedURL
+      use:localisedURL={$page}
     >Contact</a>
   </li>
 </ul>

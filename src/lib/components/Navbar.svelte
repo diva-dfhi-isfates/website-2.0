@@ -1,11 +1,13 @@
 <script lang="ts">
+  import { _ } from 'svelte-i18n';
+  import { page } from '$app/stores';
+
   import Links from './Links.svelte'
   import LanguageSelection from './LanguageSelection.svelte'
   import { localisedURL } from '$lib/directives'
   import { screen } from '$lib/stores';
   import BurgerIcon from './icons/Burger.svelte';
   import MobileMenuSidebar, { OFFCANVAS_ID } from './MobileMenuSidebar.svelte';
-  import { _ } from 'svelte-i18n';
 </script>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-warning border-4 sticky-top">
@@ -13,7 +15,7 @@
     <a
       class="navbar-brand fw-bold fs-3 p-0 d-flex align-items-center"
       href="/"
-      use:localisedURL
+      use:localisedURL={$page}
     >
       <img src="/assets/diva-icon.svg" alt=""/>
       <img src="/assets/diva-typo.svg" alt="" class="diva-typo ms-1"/>
