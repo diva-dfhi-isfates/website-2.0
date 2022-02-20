@@ -1,11 +1,12 @@
 <script>
 	import { _ } from "svelte-i18n";
 
+	import { getPageTitle } from "$lib/utils";
 	import WaveSvg from "./_components/WaveSvg.svelte";
 </script>
 
 <svelte:head>
-	<title>Home</title>
+  <title>DIVA - {getPageTitle($_('home.diva_title'))}</title>
 </svelte:head>
 
 <div class="background position-absolute top-0 start-0 text-warning">
