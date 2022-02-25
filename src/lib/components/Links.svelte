@@ -18,10 +18,10 @@
   <li class="nav-item">
     <a 
       class="nav-link text-dark" 
-      class:active={path.includes('/gallery')}
-      href="/gallery"
+      class:active={path.includes('/goodies')}
+      href="/goodies"
       use:localisedURL={$page}
-    >{$_('gallery.title')}</a>
+    >{$_('goodies.title')}</a>
   </li>
   <li class="nav-item">
     <a

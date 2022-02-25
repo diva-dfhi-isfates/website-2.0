@@ -38,5 +38,8 @@
   "localisation": {
     "fr": "Français",
     "en": "Anglais"
+  },
+  "goodies": {
+    "title": "Nos goodies"
   }
 }
