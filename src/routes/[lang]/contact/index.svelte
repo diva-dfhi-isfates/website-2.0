@@ -17,15 +17,15 @@
 
   <div class="row mt-5">
     <div class="col-md-6" data-aos="fade-up">
-      <h2 class="mt-3">
-        <Emoji symbol="🇩🇪" />
+      <h2 class="mt-3 d-flex align-items-center">
+        <img src={`/assets/flag_de.svg`} alt="" class="rounded me-1" />
         {$_('contact.side.german')}:
       </h2>
       <Address {...ADDRESSES.saarbrucken} />
     </div>
     <div class="col-md-6" data-aos="fade-up" data-aos-delay="50">
-      <h2 class="mt-3">
-        <Emoji symbol="🇫🇷" />
+      <h2 class="mt-3 d-flex align-items-center">
+        <img src={`/assets/flag_fr.svg`} alt="" class="rounded me-1" />
         {$_('contact.side.french')}:
       </h2>
       <Address {...ADDRESSES.metz} />
@@ -33,4 +33,10 @@
   </div>
 </section>
 
-<SocialLinks class="mt-5" data-aos="fade-up" data-aos-delay="100"/>    
+<SocialLinks class="mt-5" data-aos="fade-up" data-aos-delay="100"/>
+
+<style>
+  img {
+    width: 1em;
+  }
+</style>
